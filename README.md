@@ -13,7 +13,7 @@ local PlayerService = Services.Players
 
 for Idx,Val in next, PlayerService:GetPlayers() do
     if (Val.Name == PlayerService.LocalPlayer.Name) then
-        cout(string.format("LocalPlayer(%q) found at %i in the Players Object", Val.Name, Idx))
+        cout(string.format("LocalPlayer(%q) found at index : %i in the Players Object", Val.Name, Idx))
     end
 end
 ```

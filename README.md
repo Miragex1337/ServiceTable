@@ -1,4 +1,4 @@
-## Script implementation example:
+## [*] Script implementation example:
 
 ```lua
 --// Example
